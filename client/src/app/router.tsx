@@ -17,6 +17,7 @@ import TransactionDetailPage from '../pages/TransactionDetailPage'
 import NotificationsPage from '../pages/user/NotificationsPage'
 import UsersPage from '../pages/admin/UsersPage'
 import DashboardPage from '../pages/DashboardPage'
+import ContactAdminPage from '../pages/ContactAdminPage'
 
 export const router = createBrowserRouter([
   {
@@ -25,6 +26,7 @@ export const router = createBrowserRouter([
       { path: '/', element: <HomePage /> },
       { path: '/login', element: <LoginPage /> },
       { path: '/register', element: <RegisterPage /> },
+      { path: '/contact', element: <ContactAdminPage /> },
       { path: '*', element: <NotFoundPage /> },
     ],
   },

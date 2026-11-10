@@ -16,6 +16,7 @@ export default function PublicLayout() {
         </Link>
         <nav className="nav">
           <Link to="/">Home</Link>
+          <Link to="/contact">Contact</Link>
           {user ? (
             <Link to={roleHome(user.role)} className="btn btn--small">
               Dashboard
